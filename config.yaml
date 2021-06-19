@@ -1,0 +1,19 @@
+# Name of the world
+world: "World"
+
+# x and y coordinate to start searching at
+xCoord: 0
+zCoord: 0
+
+# number of blocks to search
+xBlocks: 10
+zBlocks: 10
+
+# max and min height to search to (warning: large ranges make running this take forever)
+yMax: 128
+yMin: 0
+
+# list of blocks to make distrobutions of (give minecraft block IDs)
+blocks: 
+  - "minecraft:diamond_ore"
+  - "minecraft:deepslate_diamond_ore"
